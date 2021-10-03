@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-Regular.ttf)
+}
+body {
+	background-color: #E5FCFF;
+	font-family: Quicksand;
+	margin: 0;
+}
+header {
+	background-color: #ACACDE;
+}
+.info_block {
+	border-radius: 20px;
+	display: inline-block;
+	padding: 16px;
+	word-wrap: break-word;
+	margin-left: 85px;
+}
+footer {
+	background-color: #C490D1;
+}
+.gallery_image {
+	display: block;
+	margin: 0 auto;
+}
+h2 {
+	margin-left: 85px;
+}
