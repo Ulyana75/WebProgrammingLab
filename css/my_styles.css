@@ -5,6 +5,7 @@
 body {
 	background-color: #E5FCFF;
 	font-family: Quicksand;
+	font-size: 20px;
 	margin: 0;
 }
 header {
@@ -34,13 +35,17 @@ footer {
 	color: white;
 }
 nav {
-	margin: auto auto;
+	margin: 0 auto;
     text-align: right;
 }
 .navbar {
 	list-style: none;
 	padding-left: 0;
 	display: inline-block;
+}
+.nav_link {
+	text-decoration: none;
+	color: #E5FCFF;
 }
 li {
 	display: inline;
@@ -60,4 +65,9 @@ button {
 	padding-bottom: 10px;
 	font-family: Quicksand;
 	display: inline-block;
+	float: left;
+	font-size: 18px;
+}
+.contact_link {
+	color: black;
 }
