@@ -15,7 +15,6 @@ header {
 	display: inline-block;
 	padding: 16px;
 	word-wrap: break-word;
-	margin-left: 85px;
 }
 footer {
 	background-color: #C490D1;
@@ -24,6 +23,41 @@ footer {
 	display: block;
 	margin: 0 auto;
 }
-h2 {
+.skill {
+	border: 2px solid #450057;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	color: white;
+}
+nav {
+	margin: auto auto;
+    text-align: right;
+}
+.navbar {
+	list-style: none;
+	padding-left: 0;
+	display: inline-block;
+}
+li {
+	display: inline;
+	margin-right: 75px;
+}
+section {
 	margin-left: 85px;
+}
+button {
+	background-color: #B8336A;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Quicksand;
+	display: inline-block;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<title>Abramova Ulyana - M33021</title>
 		<link href="./css/my_styles.css" rel="stylesheet">
@@ -9,33 +9,66 @@
 	</head>
 	<body>
 		<header style="height: 84px">
+			<button>Contact</button>
 			<nav>
-				About me, Skills, Experience, Life
+				<ul class="navbar">
+					<li><a href="#about_me">About me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#life">Life</a></li>
+				</ul>
 			</nav>
 		</header>
 		<main>
 			<section>
-				<article>
-					Hello, my name is Ulyana. I am passionate about programming.
-					Here you can get aquained with my projects and life.
-					And if you are interested in something - contact me.
-				</article>
-				<h2>Links</h2>
-				<div class="info_block", style="background-color: #ABDAFC; width: 268px; height: 291px">
-					<p><a href="https://github.com/Ulyana75" target="_blank">Github</a></p>
-					<p><a href="https://t.me/Ulyana_ab" target="_blank">Telegram</a></p>
-					<p><a href="https://vk.com/ul_abramova" target="_blank">VK</a></p>
-					<p><a href="https://www.instagram.com/ulyana_ab/" target="_blank">Instagram</a></p>
-					<p><a href="mailto:abram.jully@gmail.com" target="_blank">Mail</a></p>
+				<a name="about_me"></a>
+				<div style="margin-top: 16px">
+					<img src="./resources/placeholder.jpg" width="100" align="left" hspace="20"/>
+					<article>
+						Hello, my name is Ulyana. I am passionate about programming.
+						Here you can get aquained with my projects and life.
+						And if you are interested in something - contact me.
+					</article>
+				</div>
+				<div class="block_with_header">
+					<h2>Links</h2>
+					<div class="info_block", style="background-color: #ABDAFC; width: 268px; height: 291px">
+						<p><a href="https://github.com/Ulyana75" target="_blank">Github</a></p>
+						<p><a href="https://t.me/Ulyana_ab" target="_blank">Telegram</a></p>
+						<p><a href="https://vk.com/ul_abramova" target="_blank">VK</a></p>
+						<p><a href="https://www.instagram.com/ulyana_ab/" target="_blank">Instagram</a></p>
+						<p><a href="mailto:abram.jully@gmail.com" target="_blank">Mail</a></p>
+					</div>
 				</div>
 			</section>
 			<section>
+				<a name="skills"></a>
 				<h2>Education</h2>
-				<div class="info_block", style="background-color: #ACACDE; width: 365px; height: 424px"></div>
+				<div class="info_block", style="background-color: #ACACDE; width: 365px; height: 424px;">
+					<p>ITMO University. Faculty of Information Technology and Programming. 2019-2023y.</p>
+					<p>MTS.Teta summer school. Mobile development faculty. 2021y.</p>
+				</div>
 				<h2>My skills</h2>
-				<div class="info_block", style="background-color: #C490D1; width: 817px; height: 424px"></div>
+				<div class="info_block", style="background-color: #C490D1; width: 817px; height: 424px">
+					<p class="skill">Kotlin</p>
+					<p class="skill">Java</p>
+					<p class="skill">Android SDK</p>
+					<p class="skill">Git</p>
+					<p class="skill">SQL</p>
+					<p class="skill">Retrofit</p>
+					<p class="skill">Room</p>
+					<p class="skill">Coroutines</p>
+					<p class="skill">OOP</p>
+					<p class="skill">SOLID</p>
+					<p class="skill">Architectural patterns</p>
+					<p class="skill">MVVM</p>
+					<p class="skill">MVP</p>
+					<p class="skill">Algorithms</p>
+					<p class="skill">Operating systems</p>
+				</div>
 			</section>
 			<section>
+				<a name="experience"></a>
 				<h2>Experience</h2>
 				<div class="info_block", style="background-color: #ABDAFC; width: 478px; height: 630px">
 					<img class="gallery_image" src="./resources/collections_project.jpg" width="200"/>
@@ -46,6 +79,7 @@
 				</div>
 			</section>
 			<section style="margin-bottom: 132px">
+				<a name="life"></a>
 				<h2>Life</h2>
 				<div class="info_block", style="background-color: #ACACDE; width: 478px; height: 400px">
 					<img class="gallery_image" src="./resources/Bo.jpg" width="400"/>
