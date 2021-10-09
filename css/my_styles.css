@@ -16,6 +16,15 @@ header {
 	display: inline-block;
 	padding: 16px;
 	word-wrap: break-word;
+	position: relative;
+}
+.info_block h2 {
+	display: inline-block;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 footer {
 	background-color: #C490D1;
@@ -34,10 +43,6 @@ footer {
 	display: inline-block;
 	color: white;
 }
-nav {
-	margin: 0 auto;
-    text-align: right;
-}
 .navbar {
 	list-style: none;
 	padding-left: 0;
@@ -53,6 +58,8 @@ li {
 }
 section {
 	margin-left: 85px;
+	margin-right: 85px;
+	margin-bottom: 140px;
 }
 button {
 	background-color: #B8336A;
@@ -67,7 +74,21 @@ button {
 	display: inline-block;
 	float: left;
 	font-size: 18px;
+	width: 250px;
+	height: 50px;
+	margin-left: 50px;
 }
 .contact_link {
 	color: black;
+}
+.flex_container {
+	display: flex;
+	justify-content: space-between;
+}
+.list_item {
+	margin-top: 0;
+}
+.item_with_icon_block {
+	display: flex; 
+	align-items: flex-start;
 }
