@@ -13,8 +13,11 @@ body {
 }
 header {
 	background-color: #ACACDE;
-	height: 84px; 
-	position: relative
+	height: 85px; 
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 2;
 }
 .header_block {
 	display: flex; 
@@ -160,12 +163,10 @@ footer {
 	flex-direction: column;
 	text-align: center;
 }
-.up_link {
-	position: fixed;
-	bottom: 17px;
-	right: 17px;
-	z-index: 10;
-}
 .shadow {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.anchor {
+	position: absolute;
+	top: -150px;
 }
