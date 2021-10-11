@@ -8,9 +8,12 @@
 		<meta name="description" content="web-portfolio of Abramova Ulyana">
 	</head>
 	<body>
-		<header style="height: 84px; position: relative">
-			<div style="display: flex; justify-content: space-between; align-items: center; position: absolute; left:0; right:0; top:0; bottom:0;">
-				<button>Contact</button>
+		<header class="shadow">
+			<a name="top"></a>
+			<div class="header_block">
+				<form method="get" target="_blank" action="./resources/Ulyana_Abramova_CV.pdf">
+					<button class="shadow" type="submit">Open my CV</button>
+				</form>
 				<nav>
 					<ul class="navbar">
 						<li><a class="nav_link" href="#about_me">About me</a></li>
@@ -22,24 +25,22 @@
 			</div>
 		</header>
 		<main>
+			<a class="up_link" href="#top"><img src="./resources/button_up.png" width="50" height="50" alt="Go up"></a>
 			<section>
 				<a name="about_me"></a>
 				<div class="flex_container" style="padding-top: 77px">
 					<div style="display: inline-block">
-						<img src="./resources/my_photo.jpg" width="234" align="left" hspace="20" style="border-radius: 20px"/>
+						<img class="shadow" src="./resources/my_photo.jpg" width="234" align="left" hspace="20" style="border-radius: 20px"/>
 						<article>
 							<p align="justify">Hello, my name is Ulyana. I am passionate about programming.
 							Here you can get aquained with my projects and life.</p>
 							<p align="justify">My favorite programming area is Android development. I have been studying it for several years.
-							I created some apps useful for me, maybe it could be useful for someone else.
+							I created some apps useful for me, maybe, it could be useful for someone else.
 							Also, sometimes I like to make something in Python, and I am familliar with C++.</p>
 							<p align="justify">If you are interested in something - contact me.</p>
 						</article>
-						<form method="get" target="_blank" action="./resources/Ulyana_Abramova_CV.pdf">
-							<button style="margin-left: 0" type="submit">Open my CV</button>
-						</form>
 					</div>
-					<div class="info_block", style="background-color: #ABDAFC; width: 268px; height: 291px; margin-left: 90px; vertical-align">
+					<div class="info_block links_block">
 						<h2>Links</h2>
 						<div class="item_with_icon_block">
 							<img src="./resources/ic_github.png" width="30" hspace="10"/>
@@ -66,7 +67,7 @@
 			</section>
 			<section>
 				<div class="flex_container">
-					<div class="info_block", style="background-color: #ACACDE; width: 365px; height: 424px;">
+					<div class="info_block education_block">
 						<h2>Education<a name="skills"></a></h2>
 						<div class="item_with_icon_block">
 							<img src="./resources/ic_education.png" width="30" hspace="10"/>
@@ -77,7 +78,7 @@
 							<p class="list_item"><strong>MTS.Theta summer school.</strong> Mobile development faculty. 2021y.</p>
 						</div>
 					</div>
-					<div class="info_block", style="background-color: #C490D1; width: 817px; height: 424px">
+					<div class="info_block skills_block">
 						<h2>My skills</h2>
 						<p class="skill">Kotlin</p>
 						<p class="skill">Java</p>
@@ -101,27 +102,75 @@
 				</div>
 			</section>
 			<section>
-				<div class="flex_container">
-					<div class="info_block", style="background-color: #ABDAFC; width: 478px; height: 630px">
-						<h2>Experience<a name="experience"></a></h2>
-						<img class="gallery_image" src="./resources/collections_project.jpg" width="200"/>
-						<p align="center">This project is about collecting cards, which probably all of us collected in the childhood.
-						This is an Android app, which helps to monitor your collection, you can comfortable see which cards you don't have.
-						You can read more about this project in README in my <a href="https://github.com/Ulyana75/CollectionApp">repository on Github</a>.
-						Also, you can download this app there.</p>
+				<div class="gallery">
+					<h2>Experience<a name="experience"></a></h2>
+					<p align="justify" style="margin-right: 85px;">There are projects which, I think, the most complicated and serious. But I have many more projects in my life.
+					For example, I made a Rubik's cube with OpenGL, or a simple messager, using Flask. You can see all my works in my Github.
+					<div class="flex_container flex_gallery">
+						<div class="info_block gallery_item experience_item">
+							<img class="gallery_image" src="./resources/collections_project.jpg" width="200"/>
+							<p align="center">This project is about collecting cards, which probably all of us collected in the childhood.
+							This is an Android app, which helps to monitor your collection, you can comfortable see which cards you don't have.
+							You can read more about this project in README in my <a href="https://github.com/Ulyana75/CollectionApp" target="_blank">repository on Github</a>.
+							Also, you can download this app there.</p>
+							
+						</div>
+						<div class="info_block gallery_item experience_item">
+							<img class="gallery_image" src="./resources/track_project.jpg" width="200"/>
+							<p align="center">Sometimes you hear about interesting movie and you want to watch it in the future.
+							My app helps you to write down movie's names, also here you can evaluate movies, which you like and which you don't like.
+							It is not only for movies - you can do the same with games, books and series.
+							You can read more about this project in README in my <a href="https://github.com/Ulyana75/TrackMyMedia" target="_blank">repository on Github</a>.
+							Also, you can download this app there.</p>
+							
+						</div>
+						<div class="info_block gallery_item experience_item">
+							<img class="gallery_image" src="./resources/find_project.jpg" width="200"/>
+							<p align="center">This project was one of the hardest for me. This app was written on the Hackaton during two days.
+							It sends phone metrics and location on background (even if app was closed). I learned how to work with services thanks to this project.
+							Also, it uses retrofit to send data to backend. Our team won this hackaton. You can read more about this project in README 
+							in my <a href="https://github.com/Ulyana75/findMyPhone" target="_blank">repository on Github</a>.</p>
+							
+						</div>
+						<div class="info_block gallery_item experience_item">
+							<img class="gallery_image" src="./resources/movies_project.jpg" width="200"/>
+							<p align="center">This app I wrote during the MTS summer school. This app is about popular movies, which are taken from TMDB. 
+							It doesn't works good yet, but it looks beautiful. I used a lot of technologies here. For example, Room, Retrofit, Worker, animations, 
+							MVVM pattern, ant other. In the neraest future I plan to improve the functionality of this app. 
+							But now it can help to monitore popular movies and read some information about them. You can see the code in my
+							<a href="https://github.com/Ulyana75/mts-summer-school-homework" target="_blank">repository on Github</a></p>
+							
+						</div>
 					</div>
 				</div>
 			</section>
-			<section style="margin-bottom: 132px">
-				<div class="info_block", style="background-color: #ACACDE; width: 478px; height: 400px">
+			<section>
+				<div class="gallery" style="margin-top: -85px;">
 					<h2>Life<a name="life"></a></h2>
-					<img class="gallery_image" src="./resources/Bo.jpg" width="400"/>
-					<p align="center">This is my lovely dog Botsman :3</p>
+					<div class="flex_container flex_gallery">
+						<div class="info_block gallery_item life_item">
+							<img class="gallery_image" src="./resources/Bo.jpg" width="400"/>
+							<p align="center">This is my lovely dog Botsman :3</p>
+						</div>
+						<div class="info_block gallery_item life_item">
+							<iframe class="gallery_image" width="400" height="300" src="https://www.youtube.com/embed/FDKG7hBb5Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<p align="center">I can play guitar, piano and ukulele. You can see some of my guitar's videos in <a href="https://www.instagram.com/ulyana_ab/" target="_blank">my instagram.</a></p>
+						</div>
+						<div class="info_block gallery_item life_item">
+							<img class="gallery_image" src="./resources/chgk.jpg" height="300"/>
+							<p align="center">I like to play mind games such as "What? Where? When?"</p>
+						</div>
+						<div class="info_block gallery_item life_item">
+							<img class="gallery_image" src="./resources/chess.jpg" height="300"/>
+							<p align="center">Also, I am beginner in chess. I play a few games a day and it is a great way to spend time for me.</p>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
-		<footer style="height: 109px">
-			<time datetime="2021-09-19">The 19'th of September, 2021</time>
+		<footer class="shadow">
+			<p>This  website made by Abramova Ulyana</p>
+			<time datetime="2021-10-11">The 11'th of October, 2021</time>
 		</footer>
 	</body>
 </html>
