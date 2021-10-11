@@ -2,6 +2,9 @@
 	font-family: Quicksand;
 	src: url(../fonts/Quicksand-Regular.ttf)
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background-color: #E5FCFF;
 	font-family: Quicksand;
