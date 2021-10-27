@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+}
+body, html {
+	height: 100%;
+}
+main {
+	flex-grow: 2;
+}
+.active_nav_link {
+	border: 2px solid #450057;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
