@@ -1,0 +1,59 @@
+th {
+	background: #C490D1;
+}
+
+td {
+	background: #ABDAFC;
+}
+
+td, th {
+	padding: 10px;
+}
+
+table {
+	border-spacing: 1px;
+}
+
+.wrapper {
+	align-items: center;
+}
+
+.flex_container2 {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.form {
+	border: 2px solid #450057;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+form .button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B8336A;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	font-family: Quicksand;
+	font-size: 18px;
+	width: 120px;
+	height: 40px;
+}
+
+form .button:hover {
+	background-color: #c4608a;
+}
+
+input[type="text"], input[type="number"], select {
+	font-family: Quicksand;
+	font-size: 16px;
+}
+
+.clear_button {
+	margin-top: 20px;
+}

@@ -13,7 +13,7 @@ function show_load_time() {
 }
 
 function choose_active_menu_item() {
-	let pages = ["about_me", "skills", "experience", "life"]
+	let pages = ["about_me", "skills", "experience", "life", "table"]
 	let loc = document.location.href
 	let re = new RegExp("/([A-Za-z0-9_]+)\.html")
 	let filename = re.exec(loc)[1]

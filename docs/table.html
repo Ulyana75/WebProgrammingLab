@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Table constructor - Abramova Ulyana - M33021</title>
+		<link href="../css/my_styles.css" rel="stylesheet">
+		<link href="../css/one_page_style.css" rel="stylesheet">
+		<link href="../css/table.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="keywords" content="портфолио, резюме, portfolio, CV">
+		<meta name="description" content="web-portfolio of Abramova Ulyana">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="../js/main.js"></script>
+	</head>
+	<body>
+		<header class="shadow">
+			<a name="top"></a>
+			<div class="header_block">
+				<form method="get" target="_blank" action="../resources/Ulyana_Abramova_CV.pdf">
+					<button class="shadow" type="submit">Open my CV</button>
+				</form>
+				<nav>
+					<ul class="navbar">
+						<li><a class="nav_link" href="../docs/about_me.html">About me</a></li>
+						<li><a class="nav_link" href="../docs/skills.html">Skills</a></li>
+						<li><a class="nav_link" href="../docs/experience.html">Experience</a></li>
+						<li><a class="nav_link" href="../docs/life.html">Life</a></li>
+						<li><a class="nav_link" href="../docs/table.html">Table Constructor</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="wrapper">
+			<main>
+				<div class="wrapper" style="margin-top: 120px;">
+					<div id="result"></div>
+					<div class="flex_container2">
+						<form class="form" onsubmit="addItem(); return false;" style="margin-right: 40px;">
+							<p><b>Add items to:</b></p>
+							
+							<label>day:</label>
+							<select id="add_week"></select>
+							
+							<label>position:</label>
+							<select id="add_position"></select><br>
+							
+							<label>Item:</label>
+							<input id="item" type="text">
+							
+							<p><input class="button" type="submit" value="Add"></p>
+						</form>
+						<form class="form" onsubmit="deleteItem(); return false;">
+							<p><b>Delete items from:</b></p>
+							
+							<label>day:</label>
+							<select id="del_week"></select>
+							
+							<label>position:</label>
+							<select id="del_position"></select><br>
+							
+							<p><input class="button" type="submit" value="Delete"></p>
+						</form>
+					</div>
+					<form class="form" onsubmit="rebuildTable(); return false;">
+						<div class="flex_container2">
+							<div style="margin-right: 40px;">
+								<p><b>How many working days?</b></p>
+								<input type="radio" name="days" value="5"><label for="radio">5</label><br>
+								<input type="radio" name="days" value="6"><label for="radio">6</label><br>
+								<input type="radio" name="days" value="7" checked><label for="radio">7</label></p>
+							</div>
+							
+							<div>
+								<p><b>What is the maximum quantity of subjects?</b></p>
+								<input id="max_subjects" type="number" min="1" max="20" value="1">
+							</div>
+						</div>
+						
+						<p><input class="button" type="submit" value="Save"></p>
+					</form>
+					<button class="shadow clear_button" type="submit" onclick="clearTable()">Clear all table</button>
+				</div>
+			</main>
+			<footer id="footer" class="shadow" style="margin-top: 20px">
+				<p>This  website made by Abramova Ulyana</p>
+				<time datetime="2021-10-11">The 11'th of October, 2021</time>
+			</footer>
+		</div>
+		<script src="../js/table_ctor.js"></script>
+	</body>
+</html>
