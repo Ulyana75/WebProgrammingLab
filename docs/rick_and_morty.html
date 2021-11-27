@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>Life - Abramova Ulyana - M33021</title>
+		<title>Rick and Morty - Abramova Ulyana - M33021</title>
 		<link href="../css/my_styles.css" rel="stylesheet">
 		<link href="../css/one_page_style.css" rel="stylesheet">
+		<link href="../css/rick_and_morty.css" rel="stylesheet">
 		<meta charset="utf-8">
 		<meta name="keywords" content="портфолио, резюме, portfolio, CV">
 		<meta name="description" content="web-portfolio of Abramova Ulyana">
@@ -11,6 +12,7 @@
 		<script src="../js/main.js"></script>
 	</head>
 	<body>
+		<div class="preloader_image"></div>
 		<header class="shadow">
 			<a name="top"></a>
 			<div class="header_block">
@@ -33,26 +35,12 @@
 			<main>
 				<section>
 					<div class="gallery" style="margin-top: 150px;">
-						<a class="anchor" name="life"></a>
-						<h2>Life</h2>
-						<div class="flex_container flex_gallery">
-							<div class="info_block gallery_item life_item">
-								<img class="gallery_image" src="../resources/Bo.jpg" width="400"/>
-								<p align="center">This is my lovely dog Botsman :3</p>
-							</div>
-							<div class="info_block gallery_item life_item">
-								<iframe class="gallery_image" width="400" height="300" src="https://www.youtube.com/embed/FDKG7hBb5Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<p align="center">I can play guitar, piano and ukulele. You can see some of my guitar's videos in <a href="https://www.instagram.com/ulyana_ab/" target="_blank">my instagram.</a></p>
-							</div>
-							<div class="info_block gallery_item life_item">
-								<img class="gallery_image" src="../resources/chgk.jpg" height="300"/>
-								<p align="center">I like to play mind games such as "What? Where? When?"</p>
-							</div>
-							<div class="info_block gallery_item life_item">
-								<img class="gallery_image" src="../resources/chess.jpg" height="300"/>
-								<p align="center">Also, I am beginner in chess. I play a few games a day and it is a great way to spend time for me.</p>
-							</div>
+						<h2>Rick and Morty characters</h2>
+						<div id="characters_container">
 						</div>
+					</div>
+					<div class="button-wrapper">
+						<button id="down_button" class="shadow" type="submit" onclick="showCharacters()">Show more</button>
 					</div>
 				</section>
 			</main>
@@ -61,5 +49,6 @@
 				<time datetime="2021-10-11">The 11'th of October, 2021</time>
 			</footer>
 		</div>
+		<script src="../js/rick_and_morty.js"></script>
 	</body>
 </html>
