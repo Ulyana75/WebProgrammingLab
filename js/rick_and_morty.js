@@ -45,9 +45,9 @@ async function showCharacters() {
 	let but = document.getElementById("down_button")
 	but.style.visibility = "hidden"
 	let json = await getCharacters()
-	but.style.visibility = "visible"
 	
 	if (json == null) return
+	but.style.visibility = "visible"
 	
 	let results = json.results
 	
