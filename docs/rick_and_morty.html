@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Rick and Morty - Abramova Ulyana - M33021</title>
+		<link href="../css/my_styles.css" rel="stylesheet">
+		<link href="../css/rick_and_morty.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="keywords" content="портфолио, резюме, portfolio, CV">
+		<meta name="description" content="web-portfolio of Abramova Ulyana">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="preloader_image"></div>
+		<header class="shadow">
+			<a name="top"></a>
+			<div class="header_block">
+				<form method="get" target="_blank" action="../resources/Ulyana_Abramova_CV.pdf">
+					<button class="shadow" type="submit">Open my CV</button>
+				</form>
+				<nav>
+					<ul class="navbar">
+						<li><a class="nav_link" href="../index.html#about_me">About me</a></li>
+						<li><a class="nav_link" href="../index.html#skills">Skills</a></li>
+						<li><a class="nav_link" href="../index.html#experience">Experience</a></li>
+						<li><a class="nav_link" href="../index.html#life">Life</a></li>
+						<li><a class="nav_link" href="../docs/rick_and_morty.html">Rick and Morty</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="wrapper">
+			<main>
+				<section>
+					<div class="gallery" style="margin-top: 150px;">
+						<h2>Rick and Morty characters</h2>
+						<div id="characters_container">
+						</div>
+					</div>
+					<div class="button-wrapper">
+						<button id="down_button" class="shadow" type="submit" onclick="showCharacters()">Show more</button>
+					</div>
+				</section>
+			</main>
+			<footer class="shadow" id="footer">
+				<p>This  website made by Abramova Ulyana</p>
+				<time datetime="2021-10-11">The 11'th of October, 2021</time>
+				<p>This page uses <a href="https://rickandmortyapi.com/" target="_blank">Rick and Morty API</a></p>
+			</footer>
+		</div>
+		<script src="../js/rick_and_morty.js"></script>
+	</body>
+</html>

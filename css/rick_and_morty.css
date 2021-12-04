@@ -1,0 +1,48 @@
+#characters_container {
+	text-align: center;
+}
+
+.preloader_image {
+	position: fixed;
+	top: 20%;
+    left: 35%;
+	width: 461px;
+	height: 461px;
+	opacity: 0.5;
+	background: url('../resources/preloader.gif');
+	z-index: 10;
+}
+
+.loading .preloader_image {
+	display: initial;
+}
+
+.loaded .preloader_image {
+    display: none;
+}
+
+.character_item {
+	background-color: #cee9fd;
+	display: inline-block;
+	width: 320px;
+}
+
+.character_item img {
+	border-radius: 20px;
+}
+
+.flex_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.button-wrapper{
+	display: flex;	
+	justify-content: center;
+	margin-right: 85px;
+}
+
+#down_button {
+	margin: 0 0;
+}
