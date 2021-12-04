@@ -1,0 +1,55 @@
+<div class="flex_container flex_gallery">
+    <div class="info_block gallery_item experience_item">
+        <img class="gallery_image" src="./resources/collections_project.jpg" width="200"/>
+        <p align="center">This project is about collecting cards, which probably all of us collected in the childhood.
+        This is an Android app, which helps to monitor your collection, you can comfortable see which cards you don't have.
+        You can read more about this project in README in my <a href="https://github.com/Ulyana75/CollectionApp" target="_blank">repository on Github</a>.
+        Also, you can download this app there.</p>
+        
+    </div>
+    <div class="info_block gallery_item experience_item">
+        <img class="gallery_image" src="./resources/track_project.jpg" width="200"/>
+        <p align="center">Sometimes you hear about interesting movie and you want to watch it in the future.
+        My app helps you to write down movie's names, also here you can evaluate movies, which you like and which you don't like.
+        It is not only for movies - you can do the same with games, books and series.
+        You can read more about this project in README in my <a href="https://github.com/Ulyana75/TrackMyMedia" target="_blank">repository on Github</a>.
+        Also, you can download this app there.</p>
+        
+    </div>
+    <div class="info_block gallery_item experience_item">
+        <img class="gallery_image" src="./resources/find_project.jpg" width="200"/>
+        <p align="center">This project was one of the hardest for me. This app was written on the Hackaton during two days.
+        It sends phone metrics and location on background (even if app was closed). I learned how to work with services thanks to this project.
+        Also, it uses retrofit to send data to backend. Our team won this hackaton. You can read more about this project in README 
+        in my <a href="https://github.com/Ulyana75/findMyPhone" target="_blank">repository on Github</a>.</p>
+        
+    </div>
+    <div class="info_block gallery_item experience_item">
+        <img class="gallery_image" src="./resources/movies_project.jpg" width="200"/>
+        <p align="center">This app I wrote during the MTS summer school. This app is about popular movies, which are taken from TMDB. 
+        It doesn't works good yet, but it looks beautiful. I used a lot of technologies here. For example, Room, Retrofit, Worker, animations, 
+        MVVM pattern, and other. In the neraest future I plan to improve the functionality of this app. 
+        But now it can help to monitore popular movies and read some information about them. You can see the code in my
+        <a href="https://github.com/Ulyana75/mts-summer-school-homework" target="_blank">repository on Github</a></p>
+        
+    </div>
+</div>
+
+<div class="flex_container flex_gallery">
+						<div class="info_block gallery_item life_item">
+							<img class="gallery_image" src="./resources/Bo.jpg" width="400"/>
+							<p align="center">This is my lovely dog Botsman :3</p>
+						</div>
+						<div class="info_block gallery_item life_item">
+							<iframe class="gallery_image" width="400" height="300" src="https://www.youtube.com/embed/FDKG7hBb5Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<p align="center">I can play guitar, piano and ukulele. You can see some of my guitar's videos in <a href="https://www.instagram.com/ulyana_ab/" target="_blank">my instagram.</a></p>
+						</div>
+						<div class="info_block gallery_item life_item">
+							<img class="gallery_image" src="./resources/chgk.jpg" height="300"/>
+							<p align="center">I like to play mind games such as "What? Where? When?"</p>
+						</div>
+						<div class="info_block gallery_item life_item">
+							<img class="gallery_image" src="./resources/chess.jpg" height="300"/>
+							<p align="center">Also, I am beginner in chess. I play a few games a day and it is a great way to spend time for me.</p>
+						</div>
+					</div>
