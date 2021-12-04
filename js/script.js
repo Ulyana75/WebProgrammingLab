@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
 
 	// Стрелки для навигации между слайдами
 	navigation: {
@@ -21,5 +21,3 @@ const swiper = new Swiper('.swiper', {
 	// Расстояние между слайдами
 	spaceBetween: 85
 });
-
-console.log(swiper)
