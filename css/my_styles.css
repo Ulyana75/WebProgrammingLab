@@ -95,6 +95,7 @@ header {
 .nav_link {
 	text-decoration: none;
 	color: #E5FCFF;
+	white-space: nowrap;
 }
 .nav_link:hover {
 	color: #c2f8ff;
