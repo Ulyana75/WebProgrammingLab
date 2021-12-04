@@ -194,6 +194,7 @@ footer {
 .swiper {
 	margin-right: 85px;
 	position: relative;
+	min-width: 550px;
 }
 .swiper .swiper-slide {
 	text-align: center;
