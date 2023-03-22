@@ -7,7 +7,7 @@ var page = 1
 		console.log("going to call requestHideWebView")
 		window.taxiApp.call('requestHideWebView', "token", {})
 	} catch (error) {
-		console.error(error);
+		console.log(error);
 	}
   }());
 
