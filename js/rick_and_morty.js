@@ -3,8 +3,12 @@ var container = document.getElementById("characters_container")
 var page = 1
 
 (function () {
-	console.log("going to call requestHideWebView")
-	window.taxiApp.call('requestHideWebView', "token", {})
+	try {
+		console.log("going to call requestHideWebView")
+		window.taxiApp.call('requestHideWebView', "token", {})
+	} catch (error) {
+		console.error(error);
+	}
   }());
 
 
