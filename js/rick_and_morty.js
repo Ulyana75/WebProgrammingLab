@@ -2,6 +2,11 @@ var baseUrl = "https://rickandmortyapi.com/api/character/"
 var container = document.getElementById("characters_container")
 var page = 1
 
+(function () {
+	console.log("going to call requestHideWebView")
+	window.taxiApp.call('requestHideWebView', "token", {})
+  }());
+
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
