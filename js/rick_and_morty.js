@@ -2,14 +2,15 @@ var baseUrl = "https://rickandmortyapi.com/api/character/"
 var container = document.getElementById("characters_container")
 var page = 1
 
-(function () {
+const kek = () => {
 	try {
 		console.log("going to call requestHideWebView")
 		window.taxiApp.call('requestHideWebView', "token", {})
 	} catch (error) {
 		console.log(error);
 	}
-  }());
+}
+kek()
 
 
 function sleep(ms) {
